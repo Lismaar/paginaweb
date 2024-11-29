@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Gustos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff8b7 ;
+            color:#dfd795;
+        }
+       /* Barra de navegación */
+       .navbar {
+            width: 100%;
+            background-color:  #fff8b7;
+            color: #ffffff;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: #0b0a0a;
+            text-decoration: none;
+            font-size: 18px;
+        }
+           /* Contenedor principal */
+           .container {
+            display: flex;
+            width: 100%;
+            padding-top: 70px; /* Ajusta el contenido para que no se superponga con la barra de navegación */
+            height: 100vh;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color:#dfd795;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        /*Flex Responsive */
+        @media screen and (max-width: 700px) {
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <div class="navbar">
+    <a href="index.html">inicio</a>
+</div>
+<header>
+</header>
+
+<main>
+    <section>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Practico Rugby</li>
+            <li>Natacion</li>
+            <li>Ver peliculas y series</li>
+            <li>Escuchar musica</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Musica Favorita</h2>
+        <ul>
+         <img src="imagenes/otro.YK.jpg" alt="" height="40">
+            <img src="imagenes/relacion rota.jpg" alt="" height="40">
+            <br>
+            <img src="imagenes/dame la verde.jpg" alt="" height="40">
+            <img src="imagenes/crush.jpg" alt="" height="40">
+            <br>
+           <img src="imagenes/miradass raras.jpg" alt="" height="40">
+           <img src="imagenes/betty.jpg" alt="" height="40">
+        </ul>
+    </section>
+
+    <section>
+        <h2>Películas y series Favoritas</h2>
+        <ul>
+            <li>Goosip Girl</li>
+           <img src="imagenes/gossipgirlimg.jpg" alt="" height="50">
+            <li>El Stand de los besos</li>
+            <img src="imagenes/standdebesos.jpg" alt="" height="50">
+            <li>Como perder un hombre en 10 dias</li>
+           <img src="imagenes/perderunhombre.jpg" alt="" height="80">
+            <li>BRIDGERTON</li>
+           <img src="imagenes/BRIDGERTON.jpg" alt="" height="70">
+        </ul>
+    </section>
+
+    <section>
+        <h2>Comidas Favorita</h2>
+        <ul>
+            <li>Hamburguesas</li>
+            <li>Camarones</li>
+            <li>Sancocho</li>
+           
+        </ul>
+    </section>
+</main>
+<footer style="background-color: #fff8b7; color: #090909; padding: 20px 0; text-align: center;">
+    <div style="max-width: 1200px; margin: auto; padding: 0 20px;">
+    
+      <!-- Segunda Sección: Redes Sociales -->
+      <div style="margin-bottom: 20px;">
+        <a href="#" style="color: #ecf0f1; margin: 0 10px;"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" style="color: #ecf0f1; margin: 0 10px;"><i class="fab fa-twitter"></i></a>
+        <a href="#" style="color: #ecf0f1; margin: 0 10px;"><i class="fab fa-instagram"></i></a>
+        <a href="#" style="color: #ecf0f1; margin: 0 10px;"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <!-- Tercera Sección: Derechos de Autor -->
+      <div>
+        <p style="margin: 0; font-size: 14px;">&copy; Todos los derechos reservados por Kaisy L. Rodriguez V.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

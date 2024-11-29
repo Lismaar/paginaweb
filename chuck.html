@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck Bass</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Barra de navegación */
+        .navbar {
+            width: 100%;
+            background-color: #dfd795;
+            color: #ffffff;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Contenedor principal */
+        .container {
+            display: flex;
+            width: 100%;
+            padding-top: 70px; /* Ajusta el contenido para que no se superponga con la barra de navegación */
+            height: 100vh;
+        }
+
+        .left-panel {
+            width: 25%;
+            background-color:#dfd795;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .left-panel img {
+            width: 100%;
+            height: auto;
+            width: 250px;
+            margin-bottom: 10px;
+            height: 600px;
+        }
+
+        .right-panel {
+            width: 75%;
+            padding: 40px;
+            background-color: #ffffff;
+        }
+
+        .title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        /*Flex Responsive */
+        @media screen and (max-width: 700px) {
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+       
+
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <a href="index.html">inicio</a>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <!-- Panel izquierdo -->
+        <div class="left-panel">
+            <img class="left-panel img" src="imagenes/Chuck bass.webp" width="" alt="Imagen">
+            <p>Con el tiempo, Chuck Bass pasa de ser un playboy irresponsable a alguien con verdadero propósito y profundidad, alguien que, aunque sigue siendo imperfecto, muestra que puede amar, comprometerse y luchar por quienes le importan. <br></p>
+        </div>
+
+        <!-- Panel derecho -->
+        <div class="right-panel">
+            <h1 class="title">Chuck Bass</h1>
+            <p class="content">Chuck Bass es uno de los personajes más emblemáticos de Gossip Girl, interpretado por Ed Westwick. Como el hijo único de Bart Bass, un poderoso magnate inmobiliario, Chuck creció rodeado de riqueza, privilegios y poder. Desde el inicio, Chuck se presenta como un personaje enigmático, astuto y con un toque oscuro. Es conocido tanto por su arrogancia y su vida de excesos como por su estilo elegante y su gran atractivo. A lo largo de la serie, Chuck evoluciona, mostrando tanto sus facetas más crueles como sus lados vulnerables, convirtiéndose en uno de los personajes más complejos y queridos de la trama.
+
+                Uno de los temas recurrentes en la vida de Chuck es su complicada relación con su padre, Bart. Bart Bass es un hombre frío y calculador que le muestra poco afecto a Chuck y lo hace sentir constantemente como alguien que no cumple con sus expectativas. Esta falta de amor paternal y el trauma emocional que conlleva son algunos de los factores que alimentan la conducta rebelde de Chuck y su inicial desprecio hacia los demás. A medida que la historia avanza, Chuck va descubriendo su propio valor e intenta construir su imperio para dejar de vivir bajo la sombra de su padre.
+
+                Serena es conocida por su belleza, estilo y personalidad aparentemente despreocupada, pero su vida tiene muchas capas complejas. Es hija de la socialité Lily van der Woodsen, y su hermano menor, Eric, también tiene un papel importante en la trama. A lo largo de la serie, vemos que Serena lucha con su identidad y las expectativas que su círculo social tiene sobre ella, tratando de encontrar su propio camino fuera de la sombra de su familia y sus amigos, como Blair Waldorf, su mejor amiga y a veces su rival.
+                
+                </p>
+           
+            </div>
+    </div>
+</body>
+</html>

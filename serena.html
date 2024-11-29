@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serena Van Der Woodsen</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Barra de navegación */
+        .navbar {
+            width: 100%;
+            background-color:  #fffdc9;
+            color: #ffffff;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: #0b0909;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Contenedor principal */
+        .container {
+            display: flex;
+            width: 100%;
+            padding-top: 70px; /* Ajusta el contenido para que no se superponga con la barra de navegación */
+            height: 100vh;
+        }
+
+        .left-panel {
+            width: 25%;
+            background-color: #fffdc9;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .left-panel img {
+            width: 100%;
+            height: auto;
+            width: 300px;
+            margin-bottom: 10px;
+            height: 600px;
+        }
+
+        .right-panel {
+            width: 75%;
+            padding: 40px;
+            background-color: #ffffff;
+        }
+
+        .title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+/*Flex Responsive */
+@media screen and (max-width: 700px) {
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <a href="index.html">inicio</a>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <!-- Panel izquierdo -->
+        <div class="left-panel">
+            <img class="left-panel img" src="https://images.girlslife.com/posts/041/41923/serena_van_der_woodsen_top.jpg" alt="Imagen">
+            <p>Serena van der Woodsen es un personaje cuya vida refleja la presión y las complicaciones de pertenecer a una élite privilegiada, pero también las luchas internas de alguien que constantemente busca algo más auténtico. <br></p>
+        </div>
+
+        <!-- Panel derecho -->
+        <div class="right-panel">
+            <h1 class="title">Serena Van Der Woodsen</h1>
+            <p class="content">Serena van der Woodsen es uno de los personajes principales en la serie de televisión Gossip Girl, basada en las novelas de Cecily von Ziegesar. Interpretada por Blake Lively, Serena es la "it girl" del Upper East Side de Nueva York. Su carácter encantador y su atractivo natural la convierten en un personaje magnético que constantemente atrae la atención de los que la rodean, aunque también enfrenta conflictos personales y dilemas que complican su vida.
+
+                Serena es conocida por su belleza, estilo y personalidad aparentemente despreocupada, pero su vida tiene muchas capas complejas. Es hija de la socialité Lily van der Woodsen, y su hermano menor, Eric, también tiene un papel importante en la trama. A lo largo de la serie, vemos que Serena lucha con su identidad y las expectativas que su círculo social tiene sobre ella, tratando de encontrar su propio camino fuera de la sombra de su familia y sus amigos, como Blair Waldorf, su mejor amiga y a veces su rival.
+                
+                Uno de los conflictos principales de Serena es la búsqueda de la felicidad y estabilidad. A menudo se involucra en romances turbulentos, incluyendo su relación con Dan Humphrey, un joven de clase media que se convierte en su primer amor verdadero y también en su conexión con un mundo que le resulta ajeno. Serena intenta ser una buena persona, aunque sus decisiones impulsivas y su deseo de escapar de la presión de su entorno la llevan a meterse en problemas.</p>
+         <p>En cuanto a su estilo, Serena es un ícono de la moda en el show, luciendo atuendos elegantes y bohemios que combinan con su personalidad vibrante y relajada. Este aspecto la diferencia de Blair, quien es más clásica y controlada. Serena es un símbolo de libertad, pero también de la fragilidad que puede existir en la vida de alguien constantemente en el centro de atención.</p>
+            </div>
+    </div>
+ 
+</html>

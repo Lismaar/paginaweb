@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blair Waldorf</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Barra de navegación */
+        .navbar {
+            width: 100%;
+            background-color: #fff8b7;
+            color: #ffffff;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: #1d1b1b;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Contenedor principal */
+        .container {
+            display: flex;
+            width: 100%;
+            padding-top: 70px; /* Ajusta el contenido para que no se superponga con la barra de navegación */
+            height: 100vh;
+        }
+
+        .left-panel {
+            width: 25%;
+            background-color:#fff8b7;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .left-panel img {
+            width: 100%;
+            height: auto;
+            width: 250px;
+            margin-bottom: 10px;
+            height: 600px;
+        }
+
+        .right-panel {
+            width: 75%;
+            padding: 40px;
+            background-color: #ffffff;
+        }
+
+        .title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        /*Flex Responsive */
+        @media screen and (max-width: 700px) {
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+        
+
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <a href="index.html"> inicio</a>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <!-- Panel izquierdo -->
+        <div class="left-panel">
+            <img class="left-panel img" src="imagenes/B.jpg"  alt="Imagen">
+            <p>Blair Waldorf es una mujer que lucha entre las expectativas que los demás tienen de ella y su propia búsqueda de felicidad y autenticidad. Su transformación en la serie es de alguien que comienza queriendo ser una reina idealizada a alguien que encuentra su verdadero valor. <br></p>
+        </div>
+
+        <!-- Panel derecho -->
+        <div class="right-panel">
+            <h1 class="title">Blair Waldorf</h1>
+            <p class="content">Blair Waldorf, interpretada por Leighton Meester, es uno de los personajes centrales de Gossip Girl y la verdadera reina del Upper East Side. Conocida por su inteligencia, ambición y un estilo impecable, Blair es mucho más que la "chica rica" de Manhattan: es compleja, multifacética y tiene una mezcla única de vulnerabilidad y ferocidad. Su vida está marcada por su deseo de control, su búsqueda de la perfección y su anhelo de reconocimiento, tanto en lo personal como en lo profesional.
+
+                Desde el principio de la serie, Blair se presenta como la mejor amiga (y ocasional rival) de Serena van der Woodsen. Aunque su amistad con Serena es profunda y sincera, también está marcada por la inseguridad y los celos, ya que Blair vive a la sombra de Serena, quien parece tenerlo todo sin esfuerzo. A diferencia de la naturaleza relajada y despreocupada de Serena, Blair es meticulosa y estructurada; su vida está planeada al detalle, desde su camino a la universidad hasta su relación perfecta y su futuro en la élite neoyorquina. Esta necesidad de control a menudo la lleva a ser manipuladora y calculadora, pero también muestra su lado humano, lleno de temores e inseguridades.
+                </p>
+                <br>
+         <p>Una de las facetas más significativas de Blair es su relación con Chuck Bass. Aunque al inicio Chuck es simplemente uno de sus amigos cercanos, su relación evoluciona hacia una de las historias de amor más complicadas y apasionadas de la serie. Chuck y Blair tienen una química innegable, pero su relación está llena de altibajos, dramas y desafíos. Blair es una mujer que sabe lo que quiere y no teme luchar por ello, y aunque su romance con Chuck es intenso y en ocasiones tóxico, también la ayuda a descubrir quién es realmente y lo que significa el amor incondicional</p>
+         
+        </div>
+    </div>
+</body>
+</html>
